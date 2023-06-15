@@ -1,1 +1,8 @@
+.button{
+	margin-top: 10px;
+}
 
+.button-blue{
+	margin-top: 10px;
+	border: 3px solid rgb(53, 183, 227);
+}
