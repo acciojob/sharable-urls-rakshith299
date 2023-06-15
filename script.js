@@ -1,6 +1,6 @@
-// your code here
+function update() {
 
- document.getElementById("form").addEventListener("submit", function(event){
+    document.getElementById("form").addEventListener("submit", function(event){
         event.preventDefault()
     });
 
@@ -30,3 +30,6 @@
     }else if(name !== '' && year !== ''){
         url.innerHTML = `https://localhost:8080/` +`?name=${name}&year=${year}`;
     }
+
+
+}
